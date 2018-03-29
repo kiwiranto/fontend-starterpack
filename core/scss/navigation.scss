@@ -1,0 +1,40 @@
+body {
+	background-color: #eee;
+}
+
+header {
+	background-color: #333;
+	a {
+		font-family: sans-serif;
+		color: #fff;
+		text-decoration: none;
+		display: inline-block;
+		padding: 10px 20px;
+		&:hover {
+			font-weight: bold;
+		}
+	}
+	.container {
+		width: 80%;
+		margin: 0 auto;
+		.logo {
+			float: left;
+			a {
+				font-size: 20px;
+				padding: 7px 20px;
+			}
+		}
+		.menu {
+			display: inline-block;
+			float: none;
+			text-align: center;
+			vertical-align: top;
+		}
+		.user {
+			float: right;
+		}
+	}
+	p {
+		color: #000;
+	}
+}
